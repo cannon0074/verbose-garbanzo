@@ -1,0 +1,76 @@
+@charset "UTF-8";
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.content {
+  padding-top: 5rem;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-ai img {
+  max-width: 10rem;
+}
+
+.cardimg-box img {
+  margin: 1rem;
+  max-width: 6rem;
+}
+
+.content-wrap {
+  text-align: center;
+}
+
+.text-box {
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.choice-box {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.next {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.nextgame {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nextgame:hover {
+  color: #99a4ff;
+}
+
+.choice-high {
+  margin: 0 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.choice-high:hover {
+  color: #99a4ff;
+}
+.choice-low {
+  margin: 0 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.choice-low:hover {
+  color: #99a4ff;
+}
